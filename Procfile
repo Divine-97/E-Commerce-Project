@@ -1,1 +1,1 @@
-web: gunicorn fashion-frenzy.wsgi:application
+web: gunicorn e-commerce-project.wsgi:application
