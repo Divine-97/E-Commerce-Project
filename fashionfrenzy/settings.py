@@ -2,6 +2,9 @@ import os
 import dj_database_url
 from pathlib import Path
 
+if os.path.exists("env.py"):
+    import env
+
 
 """
 Django settings for ecommmerceproject project.
@@ -63,7 +66,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ecommmerceproject.urls'
+ROOT_URLCONF = 'fashionfrenzy.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -114,7 +117,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'ecommmerceproject.wsgi.application'
+WSGI_APPLICATION = 'fashionfrenzy.wsgi.application'
 
 
 # Database
@@ -123,7 +126,7 @@ WSGI_APPLICATION = 'ecommmerceproject.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+        'default': dj_database_url.parse(os.environ['DATABASE_URL'])
     }
 else:    
     DATABASES = {
