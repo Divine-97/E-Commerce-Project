@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-v6bk2%9&&pz(^6y)a-!96m*r+z&=$)z=enw4_)bk7by6f-gr19
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['divine-e-commerce-project-herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['divine-fashion-frenzy-herokuapp.com', 'localhost']
 
 
 # Application definition
