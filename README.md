@@ -242,7 +242,7 @@ The Order model will process an order made by the customer, this connects with t
 * The HTML templates were validated using W3 Validator. No major errors were returned for the HTML segments.
 * The CSS style sheet was validated using W3C Validator and no errors were returned.
 * The JavaScript files were run through JSHint and no errors were found
-* The python code was validated using PEP8. No errors were returned.
+* The python code was validated using the command python3 -m flake8 with a couple of errors.
 
 # Responsive Testing
 
