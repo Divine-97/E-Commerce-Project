@@ -135,7 +135,7 @@ if 'DATABASE_URL' in os.environ:
 else:
     print('Connecting to sqlite3...')
     DATABASES = {
-    'default': {
+        'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
@@ -148,7 +148,7 @@ if 'DATABASE_URL' in os.environ:
     }
 else:    
     DATABASES = {
-    'default': {
+        'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
