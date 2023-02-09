@@ -11,8 +11,6 @@ Check out the website [here](https://fashion-frenzy.herokuapp.com/)
 
 ## User Stories
 
-<img src="media/userstories.jpg">
-
  * Admin/ SuperUser
 
 1. As a Site Owner I want to be able to add a product so that I can grow the number of options for users to purchase.
