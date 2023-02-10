@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage image.jpeg') no-repeat center center fixed;
+    background: url('/media/homepage image.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -331,8 +331,5 @@ input[name='q']::placeholder {
 /* Mailchimp */
 
 #mc_embed_signup{
-    background:#fff;
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif;  
-    width:600px;
+    padding: 0;
 }
