@@ -237,9 +237,9 @@ The Order model will process an order made by the customer, this connects with t
 
 ## Testing 
 
-* The HTML templates were validated using W3 Validator. No major errors were returned for the HTML segments.
-* The CSS style sheet was validated using W3C Validator and no errors were returned.
-* The JavaScript files were run through JSHint and no errors were found
+* The HTML templates were validated using [NU HTML Checker](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2F8000-divine97-fashionfrenzy-0s63j6hztgz.ws-eu86.gitpod.io%2F). 3 errors that were found that I couldn't manage to fix.
+* The CSS style sheet was validated using [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-divine97-fashionfrenzy-0s63j6hztgz.ws-eu86.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and no errors were returned.
+* The JavaScript files were run through [JSHint](https://jshint.com/) and found just 5 warnings.
 * The python code was validated using the command python3 -m flake8 with a couple of errors.
 
 # Responsive Testing

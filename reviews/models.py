@@ -11,4 +11,3 @@ class Review(models.Model):
     description = models.TextField(max_length=500, null=False,
                                    blank=False)
     review_date = models.DateTimeField(auto_now_add=True)
-    
